@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "tailwind/css";
+
+@layer base {
+    h1, h2, h3 {
+        @apply text-yellow-100 font-sans;
+    }
+}
